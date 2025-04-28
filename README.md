@@ -1,22 +1,22 @@
-# Twitch subscription demo
+# Twitch Subscription Demo
 ## How to run 
 ### Install chrome extension
-https://chromewebstore.google.com/detail/primus-prev-pado/oeiomhmbaapihbilkfkhmlajkeegnjhe
-Version: >=0.3.31
+Install the extension from the [Chrome extension store](https://chromewebstore.google.com/detail/primus-prev-pado/oeiomhmbaapihbilkfkhmlajkeegnjhe)  
+Required Version: ≥ 0.3.31
 
-### Create an application from [Developer platform](https://dev.primuslabs.xyz/myDevelopment/myProjects)]
-1. Save appId and appSecret
-2. Set appId and appSecret to [primus.ts](./src/primus.ts)
+### Create an Application on the [Developer platform](https://dev.primuslabs.xyz/myDevelopment/myProjects)]
+1. Save your appId and appSecret
+2. Configure them by setting the values in [primus.ts](./src/primus.ts)
 
-### Install
+### Install Dependencies
 ```bash
 npm install
 ```
 
-### Run
+### Start the Application
 ```bash
  npm run dev
 ```
-1. Put `http://127.0.0.1:5173/` to your explorer
-2. Click ''
+1. Open your browser and navigate to: http://127.0.0.1:5173/
+2. Click the appropriate button to proceed.
 
